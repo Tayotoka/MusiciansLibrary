@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Richard F." />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+    <title>Musicians Library</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3><a href="#">Login/SignUp</a></h3>
+        <h1 style="text-align:center">Musicians Home</h1>
+        <!--Nav bar is drop down menu on Library
+            it will be floated to the left.-->
+        <nav class="navbar">
+            <a href="Home.htm">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Library
+                </button>
+                <!--here is the dropdown menu-->
+                <div class="dropdown-content">
+                    <a href="#">Scales</a>
+                    <a href="#">Chords</a>
+                    <a href="#">Theory</a>
+                    <a href="#">Gear</a>
+                    <a href="#">Useful Info</a>
+                </div>
+            </div>
+            <a href="Articles.htm">Articles</a>
+            <a href="ContactUs.htm">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <!--The Home page article thru aside will hold revolving new content feeds
+                with links to their respective pages.-->
+        <div class="row">
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2><a href="#">Metronome</a></h2>
+                    <h2><a href="#">Tuner</a></h2>
+                </div>
+            </div>
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>similarities between Instruments</h2>
+                    <h5>Article, June 30, 2018</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>This will be the content explaination</p>
+                </div>
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, June 26, 2018</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>This will be the content explaination</p>
+                </div>
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, June 26, 2018</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>This will be the content explaination</p>
+                </div>
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, June 26, 2018</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>This will be the content explaination</p>
+                </div>
+            </div>
+        </div>
+
+</main>
+    <footer>
+        <div>
+            <!--This section will be for endorsements-->
+        </div>
+        <div>
+            <p>Copyright 2018</p>
+        </div>
+    </footer>
+</body>
+
+</html>
